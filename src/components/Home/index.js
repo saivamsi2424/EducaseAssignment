@@ -14,10 +14,12 @@ class Home extends Component {
     const {history} = this.props
     history.replace('/CreateAccount')
   }
+
   existingUser = () => {
     const {history} = this.props
     history.replace('/SignIn')
   }
+
   render() {
     return (
       <Container>

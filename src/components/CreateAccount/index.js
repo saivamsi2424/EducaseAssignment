@@ -91,7 +91,7 @@ const CreateAccountForm = () => {
         className="input-styling"
       />
 
-      <label>
+      <label htmlFor="yes">
         Are you an Agency?<span>*</span>
       </label>
       <div className="radio-group">
