@@ -1,0 +1,46 @@
+.main-container-signin {
+  display: flex;
+  flex-direction: column;
+  background-color: #e6ebe6;
+  padding: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-heading-signin {
+  font-family: Roboto;
+  font-size: 23px;
+}
+
+.description-1-signin {
+  color: #9fa69f;
+}
+
+.input-styling-2 {
+  width: 100%;
+  height: 30px;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+}
+
+.input-label {
+  color: #5040de;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.login-button {
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  background-color:#d5dbdb;
+  color: white;
+  cursor:pointer;
+}
+
+.login-button:hover {
+  background-color: #77b4b5;
+}
